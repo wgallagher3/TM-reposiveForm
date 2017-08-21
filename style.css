@@ -55,11 +55,13 @@ ul {
 
 /* FORM STYLES */
 
-.contact form {
+
+/* .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+ */
 
 .contact form label {
     display: block;
@@ -97,6 +99,14 @@ ul {
 
 
 /* LARGE SCREENS */
+
+@media(min-width:550px) {
+    .contact form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+}
 
 @media(min-width:700px) {
     .wrapper {
