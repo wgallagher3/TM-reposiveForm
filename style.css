@@ -100,7 +100,7 @@ ul {
 
 /* LARGE SCREENS */
 
-@media(min-width:550px) {
+@media(min-width:500px) {
     .contact form {
         display: grid;
         grid-template-columns: 1fr 1fr;
